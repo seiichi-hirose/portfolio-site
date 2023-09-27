@@ -286,28 +286,8 @@ select::-ms-expand {
 	flex-direction: column;
 }
 
-.c-contact-form__radios label {
-	margin-left: 1.25rem;
-	position: relative;
-}
-
 .c-contact-form__radios label:not(:first-child) {
 	margin-top: 0.3125rem;
-}
-
-.c-contact-form__radios label::before {
-	background-color: #fff;
-	border: 0.0625rem solid #333;
-	border-radius: 50%;
-	content: "";
-	display: inline-block;
-	height: 1rem;
-	left: -1.25rem;
-	margin: 0;
-	margin-top: 0.3125rem;
-	position: absolute;
-	vertical-align: top;
-	width: 1rem;
 }
 
 .c-contact-form__limit-text {
@@ -1630,6 +1610,23 @@ textarea {
 	color: #4F31A5;
 }
 
+.wpcf7-list-item {
+	display: block;
+	margin: 0;
+}
+
+div.wpcf7 [type=radio]:checked + span::after {
+	background: #119800;
+}
+
+div.wpcf7 .wpcf7-spinner {
+	display: none !important;
+}
+
+div.wpcf7 [type=submit] {
+	background: transparent linear-gradient(90deg, #b7df55 0%, #119800 100%) 0% 0% no-repeat padding-box;
+}
+
 @media screen and (min-width: 768px) {
 
 .u-desktop {
@@ -2065,6 +2062,14 @@ a:hover {
 
 .p-works__images {
 	width: 59.5%;
+}
+
+.wpcf7-list-item.first {
+	margin-left: 0;
+}
+
+.wpcf7-list-item {
+	display: inline-block;
 }
 
 }

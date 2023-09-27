@@ -1,0 +1,27 @@
+@use "global" as *;
+
+
+.wpcf7-list-item.first {
+    @include mq("md") {
+        margin-left: 0;
+    }
+}
+.wpcf7-list-item {
+    display: block;
+    margin: 0;
+    @include mq("md") {
+        display: inline-block;
+    }
+}
+
+div.wpcf7 [type=radio]:checked + span::after {
+    background: $green;
+}
+
+div.wpcf7 .wpcf7-spinner {
+    display: none !important;
+}
+
+div.wpcf7 [type=submit] {
+    background: transparent linear-gradient(90deg, #b7df55 0%, #119800 100%) 0% 0% no-repeat padding-box;
+}
