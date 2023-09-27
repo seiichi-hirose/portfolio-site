@@ -71,8 +71,8 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     },
     loop: true,
     clickable: true,
-    // autoplay: {
-    //   delay: 3000,
-    // },
+    autoplay: {
+      delay: 3000,
+    },
   });
 });

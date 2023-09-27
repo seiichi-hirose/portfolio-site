@@ -69,9 +69,9 @@ jQuery(function ($) {
       el: ".js-works-pagination"
     },
     loop: true,
-    clickable: true
-    // autoplay: {
-    //   delay: 3000,
-    // },
+    clickable: true,
+    autoplay: {
+      delay: 3000
+    }
   });
 });

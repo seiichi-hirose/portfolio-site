@@ -219,7 +219,7 @@ select::-ms-expand {
 }
 
 .c-button {
-	background: transparent linear-gradient(90deg, #7633a4 0%, #250d65 100%) 0% 0% no-repeat padding-box;
+	background: transparent linear-gradient(90deg, #b7df55 0%, #119800 100%) 0% 0% no-repeat padding-box;
 	border-radius: 50px;
 	color: #fff;
 	display: inline-block;
@@ -335,7 +335,7 @@ select::-ms-expand {
 
 .c-section-header,
 .c-section-header--white {
-	color: #391E88;
+	color: #119800;
 	text-align: center;
 }
 
@@ -549,7 +549,7 @@ select::-ms-expand {
 }
 
 .p-company__yellow {
-	background: linear-gradient(180deg, transparent 0%, transparent 75%, #F5F534 75%, #F5F534 90%, transparent 90%, transparent 100%);
+	background: linear-gradient(180deg, transparent 0%, transparent 75%, #b7df55 75%, #b7df55 90%, transparent 90%, transparent 100%);
 }
 
 .p-company__content {
@@ -634,7 +634,7 @@ select::-ms-expand {
 }
 
 .p-footer {
-	background-color: #120E19;
+	background-color: #119800;
 	padding-bottom: 1.25rem;
 	padding-top: 3.75rem;
 }
@@ -703,7 +703,7 @@ select::-ms-expand {
 }
 
 .p-header.is-color {
-	background-color: #21054d;
+	background-color: #119800;
 }
 
 .p-header__inner {
@@ -726,7 +726,7 @@ select::-ms-expand {
 }
 
 .p-mv {
-	background-image: url(../images/common/hero.jpg);
+	background-image: url(../images/common/trees-fv.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
@@ -1201,7 +1201,7 @@ select::-ms-expand {
 }
 
 .sp-nav {
-	background-color: #642390;
+	background-color: #119800;
 	display: none;
 	height: 100vh;
 	left: 0;
@@ -1600,6 +1600,31 @@ a:hover {
 	grid-template-columns: repeat(3, 1fr);
 }
 
+.p-card {
+	margin-right: 1.875rem;
+	width: calc(33.33333333% - 1.25rem);
+}
+
+.p-card:nth-of-type(3n) {
+	margin-right: 0;
+}
+
+.p-card__img {
+	aspect-ratio: 350/220;
+	max-width: 21.875rem;
+	position: static;
+	width: 100%;
+}
+
+.p-card__img::before {
+	content: none;
+}
+
+.p-card__img img {
+	position: static;
+	transform: none;
+}
+
 .p-common-lists__list {
 	display: flex;
 	padding: 1.875rem 0;
@@ -1809,7 +1834,6 @@ a:hover {
 
 .p-service__items {
 	display: flex;
-	gap: 1.875rem;
 	margin-top: 1.875rem;
 }
 
