@@ -1,12 +1,20 @@
 <?php get_header(); ?>
 
+<?php
+$home = esc_url(home_url('/'));
+$about = esc_url(home_url('/about/'));
+$service = esc_url(home_url('/service/'));
+$works = esc_url(home_url('/works/'));
+$contact = esc_url(home_url('/contact/'));
+?>
+
   <section class="l-mv p-mv js-mv-height">
     <div class="p-mv__inner">
       <div class="p-mv__header">
         <h2 class="p-mv__title">WEB <br class="u-mobile">CREATION <br class="u-mobile">SPECIALIST</h2>
         <p class="p-mv__subtitle">お客様の理想の未来を実現する<br class="u-mobile">Webサイトを制作します</p>
         <div class="p-mv__btn">
-          <a href="#" class="c-mv-btn">CONTACT</a>
+          <a href="<?php echo $contact ?>" class="c-mv-btn">CONTACT</a>
         </div>
       </div>
       <div class="p-mv__scroll"><span>SCROLL</span></div>
@@ -36,7 +44,7 @@
           </div>
           <div class="p-card__body">
             <h3 class="p-card__title">コーディング</h3>
-            <p class="p-card__text">保守性のあるCSS設計を土台に置いて、細かい部分まで正確さを意識します。</p>
+            <p class="p-card__text">CSS設計を土台に、細かい部分や見えにくい部分までこだわり実装していきます。</p>
           </div>
         </div>
         <div class="p-service__item p-card">
@@ -45,12 +53,12 @@
           </div>
           <div class="p-card__body">
             <h3 class="p-card__title">Webデザイン</h3>
-            <p class="p-card__text">優しさを持った、意味のあるWebサイト・バナーデザイン作りに注力します。</p>
+            <p class="p-card__text">優しさがあって、意味のあるWebサイト・バナーデザイン作りに注力します。</p>
           </div>
         </div>
       </div>
       <div class="p-service__btn">
-        <a href="#" class="c-button">more</a>
+        <a href="<?php echo $service ?>" class="c-button">more</a>
       </div>
     </div>
   </section>
@@ -84,7 +92,7 @@
             <p class="p-works__text">様々なジャンルのWebサイト制作が可能です。<br>ご購入やお申込み数の増加などを実現します！</p>
           </div>
           <div class="p-works__btn">
-            <a href="#" class="c-button">more</a>
+            <a href="<?php echo $works ?>" class="c-button">more</a>
           </div>
         </div>
       </div>
@@ -111,7 +119,7 @@
             </p>
         </div>
         <div class="p-company__btn">
-          <a href="#" class="c-button">more</a>
+          <a href="<?php echo $about ?>" class="c-button">more</a>
         </div>
       </div>
     </div>
@@ -128,7 +136,7 @@
           <p class="p-contact__text">Webサイトの制作のご依頼やお見積りなど、<br>お気軽にご相談ください。</p>
         </div>
         <div class="p-contact__btn">
-          <a href="#" class="c-button">more</a>
+          <a href="<?php echo $contact ?>" class="c-button">more</a>
         </div>
       </div>
     </div>
