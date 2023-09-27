@@ -36,7 +36,7 @@
           </div>
           <div class="p-card__body">
             <h3 class="p-card__title">コーディング</h3>
-            <p class="p-card__text">CSS設計のしっかりした土台を意識し、細かい部分の正確さにこだわります。</p>
+            <p class="p-card__text">保守性のあるCSS設計を土台に置いて、細かい部分まで正確さを意識します。</p>
           </div>
         </div>
         <div class="p-service__item p-card">
