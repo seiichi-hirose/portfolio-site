@@ -1,0 +1,33 @@
+@use 'global' as *;
+
+
+.p-lower-contact {
+
+}
+
+.p-lower-contact__inner {
+    @include mq("md") {
+
+    }
+}
+
+.p-lower-contact__header {
+    text-align: center;
+    font-size: rem(14);
+    font-size: $medium;
+    @include mq("md") {
+        font-size: rem(16);
+    }
+}
+
+.p-lower-contact__form {
+    width: 100%;
+    margin-top: rem(30);
+    @include mq("md") {
+        margin-top: rem(40);
+    }
+}
+
+
+
+
