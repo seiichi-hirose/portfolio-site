@@ -27,4 +27,15 @@
   letter-spacing: 0.05em;
 }
 
+.c-breadcrumb .home {
+  color: $green;
+  display: inline-block;
+  margin-right: rem(5);
+  vertical-align: middle;
+}
+.c-breadcrumb .post {
+  display: inline-block;
+  margin-left: rem(5);
+  vertical-align: middle;
+}
 

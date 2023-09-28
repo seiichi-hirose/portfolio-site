@@ -246,6 +246,19 @@ select::-ms-expand {
 	vertical-align: middle;
 }
 
+.c-breadcrumb .home {
+	color: #119800;
+	display: inline-block;
+	margin-right: 0.3125rem;
+	vertical-align: middle;
+}
+
+.c-breadcrumb .post {
+	display: inline-block;
+	margin-left: 0.3125rem;
+	vertical-align: middle;
+}
+
 .c-button {
 	background: transparent linear-gradient(90deg, #b7df55 0%, #119800 100%) 0% 0% no-repeat padding-box;
 	border-radius: 50px;

@@ -9,13 +9,7 @@
     </div>
 </section>
 
-<div class="c-breadcrumb">
-    <div class="c-breadcrumb__inner l-inner">
-        <a href="#" class="c-breadcrumb__link-top">TOP</a>
-        <span class="c-breadcrumb__arrow">></span>
-        <a href="" class="c-breadcrumb__link">CONTACT</a>
-    </div>
-</div>
+<?php get_template_part('_include/breadcrumb'); ?>
 
 <div class="p-lower-contact l-lower-contact">
     <div class="p-lower-contact__inner l-inner">

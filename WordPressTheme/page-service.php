@@ -9,13 +9,7 @@
     </div>
 </section>
 
-<div class="c-breadcrumb">
-    <div class="c-breadcrumb__inner l-inner">
-        <a href="#" class="c-breadcrumb__link-top">TOP</a>
-        <span class="c-breadcrumb__arrow">></span>
-        <a href="" class="c-breadcrumb__link">SERVICE</a>
-    </div>
-</div>
+<?php get_template_part('_include/breadcrumb'); ?>
 
 <div class="p-lower-service l-lower-frame">
     <div class="p-lower-service__inner l-inner">
