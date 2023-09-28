@@ -67,7 +67,7 @@
             <dl class="c-table__body">
                 <div class="c-table__line"><dt class="c-table__item">屋号</dt><dd class="c-table__content">GLOCAL CODE（グローカルコード）</dd></div>
                 <div class="c-table__line"><dt class="c-table__item">開設</dt><dd class="c-table__content">2022年06月</dd></div>
-                <div class="c-table__line"><dt class="c-table__item">代表</dt><dd class="c-table__content">廣瀬 誠一</dd></div>
+                <div class="c-table__line"><dt class="c-table__item">代表者</dt><dd class="c-table__content">廣瀬 誠一</dd></div>
                 <div class="c-table__line"><dt class="c-table__item">メールアドレス</dt><dd class="c-table__content">hirose@glocalcode.com</dd></div>
                 <div class="c-table__line"><dt class="c-table__item">住所</dt><dd class="c-table__content">福井県鯖江市片山町6-2-1</dd></div>
             </dl>

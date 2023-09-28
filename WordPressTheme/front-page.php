@@ -14,7 +14,7 @@ $contact = esc_url(home_url('/contact/'));
         <h2 class="p-mv__title">WEB <br class="u-mobile">CREATION <br class="u-mobile">SPECIALIST</h2>
         <p class="p-mv__subtitle">お客様の理想の未来を実現する<br class="u-mobile">Webサイトを制作します</p>
         <div class="p-mv__btn">
-          <a href="<?php echo $contact ?>" class="c-mv-btn">CONTACT</a>
+          <a href="<?php echo $contact ?>" class="c-button">CONTACT</a>
         </div>
       </div>
       <div class="p-mv__scroll"><span>SCROLL</span></div>
