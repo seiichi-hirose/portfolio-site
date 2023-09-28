@@ -40,7 +40,7 @@
                 <div class="p-lower-service__card-body">
                     <h3 class="p-lower-service__card-title">コーディング</h3>
                     <p class="p-lower-service__card-text">
-                        CSS設計（予測・再利用・保守・拡張できる）に基づき作業いたします。<br>
+                        CSS設計（予測・再利用・保守・拡張できる）に基づき制作いたします。<br>
                         <br>
                         以下、具体的な対応スキルです。<br>
                         ・HTML/CSS: デザインの意図を汲み取りつつ、正確な作業を心がけています。<br>
