@@ -53,7 +53,7 @@ $contact = esc_url(home_url('/contact/'));
           </div>
           <div class="p-card__body">
             <h3 class="p-card__title">Webデザイン</h3>
-            <p class="p-card__text">優しさがあって、意味のあるWebサイト・バナーデザイン作りに注力します。</p>
+            <p class="p-card__text">優しさがあって、意図を感じるWebサイト・バナーデザイン作りに注力します。</p>
           </div>
         </div>
       </div>
@@ -115,7 +115,7 @@ $contact = esc_url(home_url('/contact/'));
               だからこそちゃんと成果を出すサイトを<br class="u-mobile">
               全力でお作りします。<br>
               お客様の笑顔を見たい。<br>
-              未来を実現する手助けをさせてください。
+              未来を形づくる手助けをさせてください。
             </p>
         </div>
         <div class="p-company__btn">

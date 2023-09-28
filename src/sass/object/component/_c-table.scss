@@ -1,0 +1,43 @@
+@use "global" as *;
+
+
+
+.c-table {
+    @include mq("md") {
+
+    }
+}
+
+.c-table__body {
+    @include mq("md") {
+
+    }
+}
+
+.c-table__line {
+    padding: rem(20) 0;
+    border-bottom: rem(1) solid $gray;
+    @include mq("md") {
+        display: flex;
+        align-items: center;
+        padding: rem(30);
+    }
+}
+
+.c-table__item {
+    font-size: rem(16);
+    font-weight: $bold;
+    @include mq("md") {
+        width: 100%;
+        max-width: rem(175);
+    }
+}
+
+.c-table__content {
+    font-size: rem(16);
+    margin-top: rem(4);
+    @include mq("md") {
+        margin-top: 0;
+    }
+}
+

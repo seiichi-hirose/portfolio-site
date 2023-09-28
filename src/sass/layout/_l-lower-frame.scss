@@ -6,3 +6,9 @@
       margin-top: rem(70);
     }
   }
+
+.l-lower-frame--about {
+  @include mq("md") {
+    margin-top: rem(-60);
+  }
+}

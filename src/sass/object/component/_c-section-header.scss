@@ -26,6 +26,16 @@
     font-size: rem(36);
   }
 }
+.c-section-header__lower {
+  font-size: rem(24);
+  font-weight: $bold;
+  letter-spacing: 0.05em;
+  line-height: calc(37 / 30);
+  font-family: $english-family;
+  @include mq(md){
+    font-size: rem(32);
+  }
+}
 
 .c-section-header--left {
   @include mq(md){

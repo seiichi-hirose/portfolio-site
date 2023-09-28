@@ -225,6 +225,7 @@ select::-ms-expand {
 	background-color: #f7faef;
 	font-size: 0.6875rem;
 	padding: 0.3125rem 0;
+	position: relative;
 }
 
 .c-breadcrumb__link-top {
@@ -426,6 +427,14 @@ select::-ms-expand {
 	text-transform: uppercase;
 }
 
+.c-section-header__lower {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	line-height: 1.2333333333;
+}
+
 .c-section-header--white {
 	color: #fff;
 }
@@ -434,6 +443,21 @@ select::-ms-expand {
 	font-size: 1.5rem;
 	font-weight: bold;
 	line-height: 1.5;
+}
+
+.c-table__line {
+	border-bottom: 0.0625rem solid #CDD6DD;
+	padding: 1.25rem 0;
+}
+
+.c-table__item {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.c-table__content {
+	font-size: 1rem;
+	margin-top: 0.25rem;
 }
 
 .c-to-top {
@@ -794,6 +818,50 @@ select::-ms-expand {
 	color: #fff;
 	display: block;
 	font-size: 1.125rem;
+}
+
+.p-lower-about__message {
+	margin-left: calc(50% - 50vw);
+	margin-right: calc(50% - 50vw);
+}
+
+.p-lower-about__message-wrapper {
+	margin-top: 3.75rem;
+	max-width: 37.5rem;
+}
+
+.p-lower-about__message-img {
+	aspect-ratio: 335/248;
+	width: 100%;
+}
+
+.p-lower-about__message-text {
+	background-color: #fff;
+	font-size: 0.875rem;
+	margin-top: 1.25rem;
+}
+
+.p-lower-about__access {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 37.5rem;
+	width: 100%;
+}
+
+.p-lower-about__access-table {
+	margin-top: 1.25rem;
+}
+
+.p-lower-about__access-img {
+	aspect-ratio: 335/240;
+	margin-top: 1.875rem;
+}
+
+.p-lower-about__access-img img {
+	-o-object-fit: cover;
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
 }
 
 .p-lower-contact__header {
@@ -1733,6 +1801,10 @@ a:hover {
 	margin-top: 4.375rem;
 }
 
+.l-lower-frame--about {
+	margin-top: -3.75rem;
+}
+
 .l-page-contact {
 	margin-bottom: 4.375rem;
 	margin-top: 4.375rem;
@@ -1792,12 +1864,31 @@ a:hover {
 	font-size: 2.25rem;
 }
 
+.c-section-header__lower {
+	font-size: 2rem;
+}
+
 .c-section-header--left {
 	text-align: left;
 }
 
 .c-section-header__subpage {
 	font-size: 2rem;
+}
+
+.c-table__line {
+	align-items: center;
+	display: flex;
+	padding: 1.875rem;
+}
+
+.c-table__item {
+	max-width: 10.9375rem;
+	width: 100%;
+}
+
+.c-table__content {
+	margin-top: 0;
 }
 
 .p-archive-home__item:not(:first-child) {
@@ -1918,6 +2009,37 @@ a:hover {
 
 .p-header__pc-nav {
 	display: block;
+}
+
+.p-lower-about__message-wrapper {
+	align-items: center;
+	display: flex;
+	gap: 3.125rem;
+	margin-top: 5rem;
+}
+
+.p-lower-about__message-img {
+	aspect-ratio: 445/330;
+	width: 40%;
+}
+
+.p-lower-about__message-text {
+	font-size: 0.9375rem;
+	margin-top: 0;
+	width: 55%;
+}
+
+.p-lower-about__access {
+	max-width: 100%;
+}
+
+.p-lower-about__access-table {
+	margin-top: 1.875rem;
+}
+
+.p-lower-about__access-img {
+	aspect-ratio: 1110/394;
+	margin-top: 3.75rem;
 }
 
 .p-lower-contact__header {

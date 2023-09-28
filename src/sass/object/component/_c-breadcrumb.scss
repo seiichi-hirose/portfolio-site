@@ -4,6 +4,7 @@
   padding: rem(5) 0;
   background-color: $thin-green;
   font-size: rem(11);
+  position: relative;
   @include mq("md") {
     font-size: rem(12);
   }
