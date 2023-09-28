@@ -19,9 +19,18 @@ $contact = esc_url(home_url('/contact/'));
 
   <header class="l-header p-header">
     <div class="p-header__inner">
+    <?php if(is_front_page()): ?>
       <h1 class="p-header__logo">
-      <a href="<?php echo $home ?>" class="p-header__logoLink">GLOCAL CODE</a>
-    </h1>
+    <?php else: ?>
+      <div class="p-header__logo">
+    <?php endif; ?>
+        <a href="<?php echo $home ?>" class="p-header__logoLink">GLOCAL CODE</a>
+    <?php if(is_front_page()): ?>
+      </h1>
+    <?php else: ?>
+      </div>
+    <?php endif; ?>
+
       <div class="p-header__drawer c-hamburger js-hamburger">
         <span></span>
         <span></span>

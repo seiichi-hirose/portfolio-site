@@ -831,6 +831,7 @@ select::-ms-expand {
 	color: #fff;
 	display: block;
 	font-size: 1.125rem;
+	font-weight: 700;
 }
 
 .p-lower-about__message {

@@ -36,3 +36,5 @@ EOT;
 }
 
 add_filter( 'style_loader_tag', 'add_rel_preconnect', 10, 4 );
+
+
