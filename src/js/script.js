@@ -72,7 +72,9 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     loop: true,
     clickable: true,
     autoplay: {
-      delay: 3000,
+      delay: 4000,
+      speed: 2000,
+      disableOnInteraction: false // 矢印をクリックしても自動再生を止めない
     },
   });
 });

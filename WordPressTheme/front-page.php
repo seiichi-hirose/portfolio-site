@@ -67,29 +67,47 @@ $contact = esc_url(home_url('/contact/'));
   <section class="l-works p-works">
     <div class="p-works__inner l-inner">
       <div class="p-works__cotnent">
+      <?php
+        //　--------- 制作実績を4件表示　---------
+        $args = array(
+            'post_type'  => 'post',  //
+            'posts_per_page' => 4        // 表示数　3件
+        );
+        $the_query = new WP_Query($args); // 新規WP query を作成　変数args で定義したパラメータを参照
+        if ($the_query->have_posts()) :
+            // ここから表示する内容を記入
+        ?>
         <div class="p-works__images">
+
           <div class="swiper js-works-swiper">
             <div class="swiper-wrapper">
+            <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
               <div class="swiper-slide p-works__img">
-                <img src="<?php echo get_theme_file_uri(); ?>/assets/images/common/works_1.jpg" alt="">
+                <?php if (has_post_thumbnail()) { ?>
+                    <?php the_post_thumbnail('large'); ?>
+                <?php } else { ?>
+                    <img src="<?php echo esc_url(get_theme_file_uri('')); ?>/assets/images/common/no-image.png" alt="画像無し">
+                <?php } ?>
               </div>
-              <div class="swiper-slide p-works__img">
-                <img src="<?php echo get_theme_file_uri(); ?>/assets/images/common/service_1.jpg" alt="">
-              </div>
-              <div class="swiper-slide p-works__img">
-                <img src="<?php echo get_theme_file_uri(); ?>/assets/images/common/service_2.jpg" alt="">
-              </div>
+            <?php endwhile; ?>
             </div>
           </div>
           <div class="swiper-pagination js-works-pagination"></div>
+
         </div>
+        <?php
+        // -------- WP_query終了-----------
+        wp_reset_postdata();
+        endif;
+        ?>
+
         <div class="p-works__text-body">
           <div class="p-works__title c-section-header">
             <h2 class="c-section-header__engtitle">WORKS</h2>
             <p class="c-section-header__jatitle">制作実績</p>
           </div>
           <div class="p-works__text-block">
-            <p class="p-works__text">様々なジャンルのWebサイト制作が可能です。<br>ご購入やお申込み数の増加などを実現します！</p>
+            <p class="p-works__text">様々なジャンルのWebサイト制作が可能です。<br>品質の確かな制作物をご提供いたします。</p>
           </div>
           <div class="p-works__btn">
             <a href="<?php echo $works ?>" class="c-button">more</a>
